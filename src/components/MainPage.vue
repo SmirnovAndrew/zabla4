@@ -1,6 +1,5 @@
 <template>
   <div class="hello">
-    <img class="zabla" src="../assets/забла4дезигннн.png" />
     <div class="grid-stack">
       <Card v-for="index in [1,1,1,1,1]" :key="index" />
     </div>
@@ -41,15 +40,6 @@ body {
   background-repeat: repeat;
   background-color: #706fac;
 
-  .zabla {
-    width: 300px;
-    height: auto;
-    position: absolute;
-    top: -130px;
-    left: 5px;
-    z-index: 9999999999;
-  }
-
 
   * {
     box-sizing: border-box;
@@ -65,15 +55,8 @@ body {
     background: rgba(0,0,0,.8);
     margin: 0 auto;
     padding: 90px 30px 30px 30px;
+    min-height: 100vh;
   }
-}
-
-.zabla {
-  width: 300px;
-  height: auto;
-  position: absolute;
-  top: 20px;
-  left: 300px;
 }
 
 .grid-stack-item-content {
@@ -82,12 +65,11 @@ body {
   background-position: center;
   background-size: cover;
   background-image: url('../assets/1.jpg');
-  border: 1px solid hotpink;
 
   &:hover {
     top: -2px !important;
     left: -2px !important;
-    box-shadow: 7px 7px 0px -1px #706fac;;
+    box-shadow: 10px 10px 0px -1px #75ba9b;;
     //animation-name: rotation;
     //animation-duration: 2s;
     //animation-iteration-count: infinite;
@@ -105,19 +87,5 @@ body {
     }
   }
 }
-
-
-//body div.content {
-//  background: linear-gradient(crimson, gold);
-//  background-position: 0 0;
-//  animation: background 2s infinite alternate;
-//}
-//
-//@keyframes background {
-//  50% {
-//    background: linear-gradient(red, green);
-//    background-position: 0 1000px;
-//  }
-//}
 
 </style>

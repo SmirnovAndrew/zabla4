@@ -1,5 +1,5 @@
 <template>
-  <NavBar />
+  <NavBar/>
   <div class="content">
     <router-view></router-view>
   </div>
@@ -12,6 +12,11 @@ export default {
   name: 'App',
   components: {
     NavBar,
+  },
+
+  setup() {
+
+    return {}
   }
 }
 </script>

@@ -1,6 +1,6 @@
 {
   "name": "ler4",
-  "version": "0.1.0",
+  "ver/home/andrew/development/3d-vue-interfacesion": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,6 +10,9 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "gridstack": "^3.3.0",
+    "three": "^0.126.1",
+    "three-orbit-controls": "^82.1.0",
+    "three-stl-loader": "^1.0.6",
     "vue": "^3.0.0",
     "vue-router": "^4.0.4"
   },
